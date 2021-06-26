@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang  = "PT-BR">
+    <head>
+        <meta charset = "UTF-8">
+        <meta viewport = "width = device-width, initial-scale = 1">
+        <title>MyPilas</title>
+        <link rel = "stylesheet" href = "../css/bootstrap-grid.min.css">
+        <link rel = "stylesheet" href = "../css/base.css">
+        <link rel = "stylesheet" href = "../css/componentes.css">
+        <link rel = "stylesheet" href = "../css/layout.css">
+    </head>
+    <body>
+
+        <header class = "layout-cabecalho layout-cabecalho--home">
+            <div class = "container">
+
+                <nav class = "barra-navegacao">
+                    <img src = "../imagens/logo.png" width = "100px" height = "35px" alt = "MyPilas">
+
+                    <div class = "barra-navegacao__menu">
+                        <button class = "botao-chaveador js-botao-chaveador"></button>
+
+                        <ul class = "menu js-menu">
+                            <li class = "menu__item"><a href="#" style="text-decoration: none">COMO FUNCIONA</a></li>
+                            <li class = "menu__item"><a href="#planos" style="text-decoration: none">PLANOS E PREÇOS</a></li>
+                            <li class = "menu__item"><a href="#" style="text-decoration: none">CONTATO</a></li>
+                            <li class = "menu__item menu__item--botao"><a href="#" class = "botao botao--login" style="text-decoration: none">LOGIN</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+        </header>
+
+        <section class = "layout-chamada">
+            <div class = "container">
+                <div class = "chamada">
+                    <h1 class = "chamada__titulo">As finanças da sua empresa em ordem</h1>
+                    <p class = "chamada__frase">Software de gestão simples e prático para pequenos negócios</p>
+                        <div class = "chamada__acao">
+                            <a href = "#planos" class = "botao botao--principal">CONHEÇA OS PLANOS</a>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <div class = "layout-depoimento">
+            <div class = "container">
+                <div class = "depoimento">
+                    <blockquote>
+                        Eu tinha perdido totalmente o controle da minha empresa.
+                        Depois que comecei a usar o MyPilas, me sinto muito mais organizada e confiante no futuro.
+                    </blockquote>
+
+                    <div class = "depoimento__autor">
+                        <img src = "../imagens/homemTerno.png" width = "180" height = "180" alt = "imgDepoimento">
+                        <p>Ordnas Ziul</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id = "planos" class = "layout-planos">
+            <div class = "container">
+                <div class = "row">
+                    <div class = "col-sm-4">
+                            <article class = "plano">
+                                <h2 class = "plano__cabecalho">Autônomo</h2>
+                                <div class = "plano__preco">
+                                    R$59/mês
+                                </div>
+                                
+                                <ul class = "plano__caracteristicas">
+                                    <li>Até <strong>2</strong> usuários</li>
+                                    <li><strong>500mb</strong> de armazenamento</li>
+                                    <li>Lançamentos ilimitados</li>
+                                    <li>Acesso seguro</li>
+                                </ul>
+
+                                <footer class = "plano__rodape">
+                                    <a href="assine.html" class = "botao botao--assinar">ASSINAR</a>
+                                </footer>
+
+                            </article>
+                    </div>
+
+                    <div class = "col-sm-4">     
+                        <article class = "plano plano--mais-popular">
+                            <h2 class = "plano__cabecalho">Micro</h2>
+                            <div class = "plano__preco">
+                                R$89/mês
+                            </div>
+
+                            <ul class = "plano__caracteristicas">
+                                <li>Até <strong>5</strong> usuários</li>
+                                <li><strong>1GB</strong> de armazenamento</li>
+                                <li>Lançamentos ilimitados</li>
+                                <li>Acesso seguro</li>
+                            </ul>
+
+                            <footer class = "plano__rodape">
+                                <a href="assine.html" class = "botao botao--assinar">ASSINAR</a>
+                            </footer>
+
+                        </article>
+                    </div>
+
+                    <div class = "col-sm-4 ultima-coluna">
+                        <article class = "plano">
+                            <h2 class = "plano__cabecalho">Pequena</h2>
+                            <div class = "plano__preco">
+                                R$99/mês
+                            </div>
+
+                            <ul class = "plano__caracteristicas">
+                                <li>Até <strong>10</strong> usuários</li>
+                                <li><strong>5GB</strong> de armazenamento</li>
+                                <li>Lançamentos ilimitados</li>
+                                <li>Acesso seguro</li>
+                            </ul>
+
+                            <footer class = "plano__rodape">
+                                <a href="assine.html" class = "botao botao--assinar">ASSINAR</a>
+                            </footer>
+
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class = "layout-rodape">
+            <div class = "container">
+                <p>&copy; MyPilas. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+
+        <script src ="../javascripts/app.js"></script>
+
+    </body>
+</html>
